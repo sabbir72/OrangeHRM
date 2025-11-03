@@ -33,6 +33,27 @@ The focus is on **Login** and **Leave Management** modules including **Apply Lea
 - Basic negative test cases and UI element checks.
 
 ---
+## Notes
+
+Default demo URL: OrangeHRM Demo
+
+Tests assume admin login credentials.
+
+Some workflow issues (like missing dropdowns for Leave Type) are documented as bugs.
+
+Don't forget to add the .env file.
+======================================================================================
+
+🛠 Contribution
+
+Fork this repo and submit pull requests with improvements.
+
+Add new test cases for other modules or pages as needed.
+=======================================================================================
+🖼 File Structure Preview
+ <img width="447" height="354" alt="image" src="https://github.com/user-attachments/assets/670ae411-965f-46f6-bc9b-c9e5cbf4a39e" />
+
+ =====================================================================================
 
 ## 🚀 Getting Started
 
@@ -46,26 +67,7 @@ BASE_URL=https://opensource-demo.orangehrmlive.com
 USERNAME=Admin
 PASSWORD=admin123
 
-
-
 npx cypress open
 npx cypress run
 
 
-⚠️ Notes
-
-Default demo URL: OrangeHRM Demo
-
-Tests assume admin login credentials.
-
-Some workflow issues (like missing dropdowns for Leave Type) are documented as bugs.
-
-Don't forget to add the .env file.
-
-🛠 Contribution
-
-Fork this repo and submit pull requests with improvements.
-
-Add new test cases for other modules or pages as needed.
-
-🖼 File Structure Preview
