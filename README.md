@@ -42,6 +42,7 @@ Tests assume admin login credentials.
 Some workflow issues (like missing dropdowns for Leave Type) are documented as bugs.
 
 Don't forget to add the .env file.
+
 ======================================================================================
 
 🛠 Contribution
@@ -49,6 +50,7 @@ Don't forget to add the .env file.
 Fork this repo and submit pull requests with improvements.
 
 Add new test cases for other modules or pages as needed.
+
 =======================================================================================
 🖼 File Structure Preview
  <img width="447" height="354" alt="image" src="https://github.com/user-attachments/assets/670ae411-965f-46f6-bc9b-c9e5cbf4a39e" />
