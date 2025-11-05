@@ -72,3 +72,20 @@ npx cypress open
 npx cypress run
 
 
+# Cypress HTML Report Viewing Guide
+
+This guide explains how to download and view the Cypress HTML report from GitHub workflow artifacts.
+
+---
+
+## Step-by-Step Instructions
+
+### 1. Download Artifact
+1. Go to your GitHub repository.
+2. Navigate to **Actions → Workflow run**.
+3. Under **Artifacts**, find `cypress-html-report`.
+4. Click **Download ZIP**.
+
+### 2. Extract ZIP
+1. Extract the downloaded ZIP file.
+2. Inside, you will find the folder structure like:
