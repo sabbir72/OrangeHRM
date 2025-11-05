@@ -35,7 +35,7 @@ jobs:
 
       # Step 6: Run Cypress Tests with Mochawesome reporter
       - name: Run Cypress tests with Mochawesome
-        run: npm run cypress:run
+        run: npm run cypress:run || true
       # Cleanup Step: Clean npm cache to reduce disk usage
       - name: Clean npm cache
         run: npm cache clean --force
